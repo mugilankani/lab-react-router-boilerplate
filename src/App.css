@@ -14,9 +14,7 @@
 li{
   text-decoration: none;
 }
-img{
-  width: 10vw;
-}
+
 .MinNav{
   display: flex;
   justify-content: space-around;

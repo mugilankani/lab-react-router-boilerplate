@@ -4,20 +4,20 @@ import './App.css'
 import Home from './Components/Home'
 import About from './Components/About'
 import Contact from './Components/Contact'
-
+import logo from "../public/Kal.png"
 
 function App() {
 
 
   return (
    <div className="App">
-    <div className='navBar'>
+    <div>
       <ul className='nav'>
-        <li  style={{ textDecoration: 'underline' }}><Link  style={{ textDecoration: 'underline' }} to="/"><img src="/Kal.png" alt="" /></Link></li>
+        <li className='imagelink'><Link to="/"><img src= {logo} alt="ythcvyh" /></Link></li>
         <div className='MinNav'>
 
-        <li  style={{ textDecoration: 'underline' }}><Link  style={{ textDecoration: "none", color: "white" }} to="/contact">Contact</Link></li>
-        <li  style={{ textDecoration: 'underline' }}><Link  style={{ textDecoration: 'underline', color: "white" }} to="/about">About</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
+        <li><Link to="/about">About</Link></li>
         </div>
       </ul>
     </div>
