@@ -10,9 +10,12 @@
   list-style: none;
   justify-content: space-between;
   align-items: center;
+  align-content: center;
+  /* margin-top: rem; */
 }
 li{
   text-decoration: none;
+  margin-top: 1rem;
 }
 
 .MinNav{
@@ -23,7 +26,8 @@ li{
 }
 .navBar{
   background-color: black;
-  height: 5vh;
+  height: 8vh;
   width: 100%;
-  align-items: center;
+  
+
 }

@@ -11,7 +11,7 @@ function App() {
 
   return (
    <div className="App">
-    <div>
+    <div className='navBar'>
       <ul className='nav'>
         <li className='imagelink'><Link to="/"><img src= {logo} alt="ythcvyh" /></Link></li>
         <div className='MinNav'>
